@@ -1,0 +1,1358 @@
+body{
+    font-family:"Abhaya Libre", serif;
+    /* padding: none; */
+    /* margin: none; */
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    background-color: rgb(255, 254, 254);
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+    font-family: "Lato", sans-serif;
+}
+
+#links a{
+      
+        padding-left: 20px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+}
+
+
+/* unsplash:IH7wPsjwomc */
+#unsplash1{
+background-color: grey;
+position: absolute;
+width: 535px;
+height: 535px;
+left: 519px;
+top: 291px;
+/* background: url(https://s3-alpha-sig.figma.com/img/0279/2edd/c7cb3c199eedda13d9cf13594b14c276?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YEVFCkKxlCWDrRt~szivNWyFYMJ78loTxWtH-XocqQmqeA6bCOIY45rMfC61AB7dwoxvUbVbJr1BYcZ6bZ3p9PfPovRmX8nPMQf9igfMeJR4qvHTnLj1kgnV85HyrZiIeSpxBTEJxKHYBNxkgpytRgleD~ODXjGyMAdLjJ8h2IoaC4dq-5qjmR6liTTgjQPoh~TKf5XSKqk8kMpgDkRn6hBzxuv~j-gOIzWGOvGH7Div6ndomuZztuIQC2NwG7FQS78~Xnl47aTCq3hgIl7cVacaEpccTUjKcA-IYRPzqZ22s-U8yjhykvgjoHVQ8ow0OYuRV6KgR-RwVYFfzLrH5g__.jpg); */
+}
+
+#unsplash1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.interior{
+    /* Interi Design */
+
+position: absolute;
+width: 546px;
+height: 290px;
+left: 61px;
+top: 659px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 192px;
+line-height: 145px;
+
+color: #000000;
+
+
+}
+
+#txt{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+position: absolute;
+width: 396px;
+height: 111px;
+left: 61px;
+top: 392px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 194.44%;
+/* or 37px */
+
+color: #000000;
+
+
+}
+
+
+#txt1{
+    /* We Will Make These Unique Tastes of Yours a design reality! */
+
+position: absolute;
+width: 438px;
+height: 84px;
+left: 1206px;
+top: 324px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+/* or 42px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+#prodbtn{
+    /* Group 3 */
+
+position: absolute;
+width: 161px;
+height: 52px;
+left: 1206px;
+top: 429px;
+
+
+}
+
+
+
+
+#img2{
+    /* unsplash:YqFz7UMm8qE */
+
+position: absolute;
+width: 458px;
+height: 458px;
+left: 1206px;
+top: 546px;
+
+
+
+}
+
+#img2 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#left{
+    /* unsplash:5MG8cQbw-T8 */
+
+position: absolute;
+width: 553px;
+height: 737px;
+left: 61px;
+top: 1195px;
+
+/* background: url(.jpg); */
+
+}
+
+#left img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#who{
+    /* WHO WE ARE */
+
+position: absolute;
+width: 220px;
+height: 31px;
+left: 736px;
+top: 1234px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+letter-spacing: 0.28em;
+
+color: #000000;
+
+
+}
+
+
+
+#ext{
+    /* Exterior & Interior */
+
+position: absolute;
+width: 535px;
+height: 230px;
+left: 734px;
+top: 1296px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 90%;
+/* or 115px */
+
+color: #000000;
+
+
+}
+
+
+#abvContact{
+    /* Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. */
+
+position: absolute;
+width: 636px;
+height: 86px;
+left: 736px;
+top: 1551px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 154%;
+/* or 43px */
+
+color: #000000;
+
+
+}
+
+
+#readMore{
+    /* Group 4 */
+
+position: absolute;
+width: 215.38px;
+height: 69.56px;
+left: 736px;
+top: 1674px;
+
+
+}
+
+/* Rectangle 2 */
+.readMorediv{
+
+    position: absolute;
+    width: 215.38px;
+height: 69.56px;
+left: 736px;
+top: 1674px;
+
+background: #000000;
+}
+
+#readMore{
+    /* read more */
+
+position: absolute;
+width: 141.8px;
+height: 30.77px;
+left: 772.12px;
+top: 1692.73px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+
+#interior2{
+    /* Interior Design Program. */
+
+position: absolute;
+width: 556px;
+height: 166px;
+left: 61px;
+top: 2193px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 88px;
+line-height: 94%;
+/* or 83px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+#lorem3{
+    /* Group 5 */
+
+position: absolute;
+width: 586px;
+height: 102px;
+left: 61px;
+top: 2393px;
+
+
+}
+
+
+#lorem4{
+    /* Group 6 */
+
+position: absolute;
+width: 606px;
+height: 102px;
+left: 61px;
+top: 2529px;
+
+
+}
+
+#img4{
+    /* unsplash:4_jQL4JCS98 */
+
+position: absolute;
+width: 833px;
+height: 625px;
+left: 831px;
+top: 2141px;
+
+/* background: url(.jpg); */
+
+}
+
+#img4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#img5{
+    /* unsplash:TRCJ-87Yoh0 */
+
+position: absolute;
+width: 561px;
+height: 374px;
+left: 61px;
+top: 2931px;
+
+background: url(.jpg);
+
+}
+
+#img5 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#img6{
+    /* unsplash:KSfe2Z4REEM */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 524px;
+height: 374px;
+left: 307px;
+top: 3198px;
+
+background: url(.jpg);
+border: 5px solid #FFFFFF;
+
+}
+
+#img6 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#uniq1{
+    /* Design Unique And Functional Spaces */
+
+position: absolute;
+width: 702px;
+height: 166px;
+left: 897px;
+top: 2938px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 88px;
+line-height: 94%;
+/* or 83px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+
+#lorem4{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+position: absolute;
+width: 702px;
+height: 72px;
+left: 897px;
+top: 3166px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 149%;
+/* or 36px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+
+#lorem5{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+position: absolute;
+width: 702px;
+height: 92px;
+left: 897px;
+top: 3300px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 149%;
+/* or 36px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+#ourMentor{
+    /* Our Mentorship Program */
+
+position: absolute;
+width: 1027px;
+height: 146px;
+left: calc(50% - 1027px/2 + 0.5px);
+top: 3737px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 98px;
+line-height: 149%;
+/* identical to box height, or 146px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+
+
+
+#carr1{
+    /* Career Course */
+
+position: absolute;
+width: 285px;
+height: 36px;
+left: 61px;
+top: 4010px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 149%;
+/* identical to box height, or 36px */
+letter-spacing: 0.32em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+
+#carr2{
+    /* Certified Interior Decorator */
+
+position: absolute;
+width: 406px;
+height: 126px;
+/* left: ; */
+top: 4080px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 108%;
+/* or 63px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+#carr3{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+position: absolute;
+width: 473px;
+height: 111px;
+left: 56px;
+top: 4240px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 208%;
+/* or 37px */
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+
+#price{
+    /* Group 7 */
+
+position: absolute;
+width: 394px;
+height: 73px;
+left: 56px;
+top: 4385px;
+
+
+}
+
+#car4{
+    /* Book Now */
+
+position: absolute;
+width: 146px;
+height: 52px;
+left: 101px;
+top: 4510px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 208%;
+/* identical to box height, or 52px */
+text-transform: uppercase;
+border: 2px solid ;
+color: #000000;
+
+
+}
+
+
+#midImg1{
+    /* unsplash:h2_3dL9yLpU */
+
+position: absolute;
+width: 457px;
+height: 811px;
+left: 635px;
+top: 3953px;
+
+/* background: url(.jpg); */
+
+}
+
+#midImg1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#certi{
+    /* Group 12 */
+
+position: absolute;
+width: 327px;
+height: 79px;
+left: 1214px;
+top: 4010px;
+
+
+}
+
+#pace{
+    /* Group 11 */
+
+position: absolute;
+width: 264px;
+height: 79px;
+left: 1214px;
+top: 4162px;
+
+
+}
+
+
+#Duration{
+    /* Group 10 */
+
+position: absolute;
+width: 138px;
+height: 79px;
+left: 1214px;
+top: 4314px;
+
+
+}
+
+#form{
+    /* Group 9 */
+
+position: absolute;
+width: 189px;
+height: 79px;
+left: 1214px;
+top: 4466px;
+
+
+
+/* Course form */
+
+position: absolute;
+width: 189px;
+height: 36px;
+left: 1214px;
+top: 4466px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 149%;
+/* identical tox height, or 36px */
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+
+/* 100% Online */
+
+position: absolute;
+width: 152px;
+height: 36px;
+left: 1214px;
+top: 4509px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 149%;
+/* identical to box height, or 36px */
+letter-spacing: 0.06em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+
+
+#img7{
+    /* unsplash:NFbwes_e-jI */
+
+position: absolute;
+width: 497px;
+height: 746px;
+left: 67px;
+top: 4919px;
+
+/* background: url(.jpg); */
+
+}
+
+
+#img7 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#img8{
+position: absolute;
+width: 487px;
+height: 583px;
+left: 1177px;
+top: 4919px;
+
+background: url(.jpg);
+
+
+/* background: url(.jpg); */
+
+}
+
+
+#img8 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#midtxt1{
+    /* Furniture Should Be Comfortable. */
+
+/* Furniture Should Be Comfortable. */
+
+position: absolute;
+width: 498px;
+height: 285px;
+left: 50%;
+top: 5015px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 93px;
+line-height: 102%;
+/* or 95px */
+text-transform: capitalize;
+
+color: #000000;
+
+
+
+
+}
+
+
+
+#midtxt1Lorem{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, */
+
+position: absolute;
+width: 497px;
+height: 87px;
+left: 622px;
+top: 5345px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 144%;
+/* or 29px */
+letter-spacing: 0.03em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+#img8lorem{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. */
+
+position: absolute;
+width: 487px;
+height: 81px;
+left: 1177px;
+top: 5525px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 144%;
+/* or 27px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+
+#workTogether{
+    /* Let’s Work together And We’ll help you By Our Best Interior Design */
+
+position: absolute;
+width: 775px;
+height: 35px;
+left: 67px;
+top: 5960px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 144%;
+/* identical to box height, or 35px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+#letsChat{
+    /* Let’s Chat */
+
+position: absolute;
+width: 113px;
+height: 35px;
+left: 117px;
+top: 6057px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 144%;
+/* identical to box height, or 35px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #000000;
+
+
+}
+
+
+
+#img11{
+ 
+
+position: absolute;
+width: 724px;
+height: 530px;
+left: 940px;
+top: 5780px;
+
+
+}
+
+
+
+#img11 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#footer{
+    /* Rectangle 6 */
+
+position: absolute;
+width: 100%;
+height: 550px;
+left: 0px;
+top: 6389px;
+
+background: #000000;
+
+}
+
+
+#indesignlast{
+    /* InDesign */
+
+position: absolute;
+width: 217px;
+height: 78px;
+left: 67px;
+top: 6477px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 144%;
+/* identical to box height, or 78px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#lorem10{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+position: absolute;
+width: 680px;
+height: 52px;
+left: 67px;
+top: 6598px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 144%;
+/* or 26px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#signUp{
+    /* Sign Up Our News Latter */
+
+position: absolute;
+width: 333px;
+height: 40px;
+left: 864px;
+top: 6499px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 144%;
+/* or 40px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#email{
+    /* Enter You Email Address */
+
+position: absolute;
+width: 232px;
+height: 29px;
+left: 864px;
+top: 6593px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#fHome{
+    /* Home */
+
+position: absolute;
+width: 57px;
+height: 29px;
+left: 864px;
+top: 6690px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#fAbout{
+    /* About */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 865px;
+top: 6733px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#fgallery{
+    /* Gallery */
+
+position: absolute;
+width: 69px;
+height: 29px;
+left: 865px;
+top: 6776px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+/* Our Services */
+
+#ourServices{
+
+
+position: absolute;
+width: 122px;
+height: 29px;
+left: 866px;
+top: 6819px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+#fcontactUs{
+    /* Contact US */
+
+position: absolute;
+width: 109px;
+height: 29px;
+left: 1135px;
+top: 6690px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+/* Privacy Policy */
+#fprivacy {
+
+    position: absolute;
+    width: 134px;
+    height: 29px;
+    left: 1135px;
+    top: 6733px;
+    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#fcopywrite{
+    /* Copyright © 2024 InDesign */
+
+position: absolute;
+width: 237px;
+height: 26px;
+left: 67px;
+top: 6827px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 144%;
+/* identical to box height, or 26px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+
+#fb{
+/* FB */
+
+position: absolute;
+width: 26px;
+height: 29px;
+left: 1510px;
+top: 6853px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+#tw{
+/* TW */
+
+position: absolute;
+width: 35px;
+height: 29px;
+left: 1571px;
+top: 6853px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+#in{
+
+    /* IN */
+
+position: absolute;
+width: 23px;
+height: 29px;
+left: 1641px;
+top: 6853px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 144%;
+/* identical to box height, or 29px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+#arrow{
+    /* Arrow 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 43px;
+height: 0px;
+left: 1378px;
+top: 6608px;
+
+border: 2px solid #FFFFFF;
+
+}
+
+#line1{
+    /* Line 1 */
+
+position: absolute;
+width: 571px;
+height: 0px;
+left: 864px;
+top: 6636px;
+
+border: 1.5px solid #FFFFFF;
+
+}
+
+#recentWork{
+/* Our Recent Work */
+
+position: absolute;
+width: 124px;
+height: 12px;
+left: 1206px;
+top: 291px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 75.52%;
+/* identical to box height, or 12px */
+
+color: #000000;
+
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+    
+    #allContent{
+        width: 90%;
+        background-color: antiquewhite;
+    }
+
+    #navbar{
+        width: 90%;
+    }
+
+
+}
+
+@media screen and (min-width:650px) and (max-width:786px){
+    
+    #allContent{
+        width: 90%;
+    }
+
+    #navbar{
+        width: 90%;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:425px) {
+    
+    #navbar{
+        display: flex;
+        background-color: rgb(240, 233, 233);
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+         margin: auto;
+        margin-top: 30px;
+    }
+    
+   #navbar a{
+        text-decoration: none;
+        color: unset;
+        font-family: "Lato", sans-serif;
+    }
+    
+    #links a{
+          
+            padding-left: 20px;
+    }
+    
+    .contact{
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+    }
+
+    #footer{
+        width: 100%;
+    }
+
+}
